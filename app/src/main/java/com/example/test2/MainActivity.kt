@@ -8,6 +8,7 @@ import android.os.CountDownTimer
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
 
         val timer = object : CountDownTimer(4000,1000){

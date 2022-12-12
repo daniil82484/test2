@@ -18,16 +18,19 @@
             android:exported="false"
             android:label="@string/title_activity_menu_buttom" />
         <activity
+            android:theme="@style/Theme.RecyclerVeiw.NoActionBar"
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MenuButtom"
             android:exported="false" />
         <activity
+            android:theme="@style/Theme.RecyclerVeiw.NoActionBar"
             android:name=".SigninActivity"
             android:exported="false" />
         <activity
-            android:name=".MenuButtom"
+            android:theme="@style/Theme.RecyclerVeiw.NoActionBar"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
