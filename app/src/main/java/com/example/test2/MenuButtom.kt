@@ -1,4 +1,4 @@
-package com.example.recyclerveiw
+package com.example.test2
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -7,22 +7,21 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.recyclerveiw.databinding.ActivityBottomNavigationViewBinding
+import com.example.test2.databinding.ActivityMenuButtomBinding
 
-class BottomNavigationView : AppCompatActivity() {
+class MenuButtom : AppCompatActivity() {
 
-    private lateinit var binding: ActivityBottomNavigationViewBinding
+    private lateinit var binding: ActivityMenuButtomBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityBottomNavigationViewBinding.inflate(layoutInflater)
+        binding = ActivityMenuButtomBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val navView: BottomNavigationView = binding.navView
 
-        val navController =
-            findNavController(R.id.nav_host_fragment_activity_bottom_navigation_view)
+        val navController = findNavController(R.id.nav_host_fragment_activity_menu_buttom)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(

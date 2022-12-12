@@ -1,4 +1,4 @@
-package com.example.recyclerveiw
+package com.example.test2
 
 data class Sensation(val imageId:Int, val title:String)
 class SensationList{val list = arrayListOf(

@@ -1,4 +1,4 @@
-package com.example.recyclerveiw
+package com.example.test2
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -1,4 +1,4 @@
-package com.example.recyclerveiw
+package com.example.test2
 
 data class Poster(val imageId:Int, val title:String, val title2:String)
 class PosterList{val list = arrayListOf(

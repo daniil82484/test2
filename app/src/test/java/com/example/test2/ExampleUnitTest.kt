@@ -1,4 +1,4 @@
-package com.example.recyclerveiw
+package com.example.test2
 
 import org.junit.Test
 
