@@ -23,24 +23,24 @@ class RibbonActivity : AppCompatActivity() {
         poster_res2.adapter=Sensation_adapter(this, SensationList().list)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.toolbar_menu, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId){
-            android.R.id.list -> {
-
-            }
-            R.id.menu -> {
-
-            }
-            R.id.avatar -> {
-
-            }
-        }
-        return true
-    }
+    //override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    //    menuInflater.inflate(R.menu.toolbar_menu, menu)
+    //    return true
+    //}
+//
+    //override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    //    when(item.itemId){
+    //        android.R.id.list -> {
+//
+    //        }
+    //        R.id.menu -> {
+//
+    //        }
+    //        R.id.avatar -> {
+//
+    //        }
+    //    }
+    //    return true
+    //}
 
 }

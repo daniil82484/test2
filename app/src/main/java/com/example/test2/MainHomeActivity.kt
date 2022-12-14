@@ -2,17 +2,17 @@ package com.example.test2
 
 import android.os.Bundle
 import android.view.Menu
-import com.google.android.material.snackbar.Snackbar
-import com.google.android.material.navigation.NavigationView
+import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import androidx.drawerlayout.widget.DrawerLayout
-import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.test2.databinding.ActivityMainHomeBinding
+import com.google.android.material.navigation.NavigationView
 
 class MainHomeActivity : AppCompatActivity() {
 
@@ -42,7 +42,6 @@ class MainHomeActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
 
-
         val poster_res: RecyclerView =findViewById((R.id.rec_view))
         poster_res.adapter=Poster_adapter(this, PosterList().list)
 
@@ -59,5 +58,18 @@ class MainHomeActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main_home)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.action_avatar -> {
+                val poster_res: RecyclerView =findViewById((R.id.rec_view))
+                poster_res.adapter=Poster_adapter(this, PosterList().list)
+
+                val poster_res2: RecyclerView =findViewById((R.id.rec_view2))
+                poster_res2.adapter=Sensation_adapter(this, SensationList().list)
+            }
+        }
+        return false
     }
 }
