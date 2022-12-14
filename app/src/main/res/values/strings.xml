@@ -10,5 +10,18 @@
 
     <string name="menu_bar">menu</string>
     <string name="avatar">avatar</string>
+    <string name="title_activity_main_home">MainHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Name</string>
+    <string name="nav_header_subtitle">asd@android.com</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_avatar">avatar</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">note</string>
+    <string name="menu_slideshow">profile</string>
 
 </resources>

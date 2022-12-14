@@ -8,24 +8,39 @@
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2235" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/drawable/btn.xml" value="0.2235" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2235" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/drawable/ic_menu_home.xml" value="0.218" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/drawable/poster.xml" value="0.2235" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/drawable/red_but.xml" value="0.2235" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_bottom_navigation_view.xml" value="0.25" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_main_home.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_manu_left.xml" value="0.25833333333333336" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_menu_buttom.xml" value="0.25833333333333336" />
-        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_ribbon.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_ribbon.xml" value="0.20068027210884354" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_signin.xml" value="0.22" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/activity_signin2.xml" value="0.21770833333333334" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/app_bar_main_home.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/app_bar_manu_left.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/content_main_home.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/content_manu_left.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/content_ribbon.xml" value="0.25729166666666664" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/fragment_dashboard.xml" value="0.25833333333333336" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/fragment_first.xml" value="0.23177083333333334" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/fragment_gallery.xml" value="0.25833333333333336" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/fragment_home.xml" value="0.25833333333333336" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/fragment_notifications.xml" value="0.25833333333333336" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/fragment_second.xml" value="0.23177083333333334" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/fragment_slideshow.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/nav_header_main_home.xml" value="0.25" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/navigation_action.xml" value="0.25729166666666664" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/poster_item.xml" value="0.5" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/sensation_item.xml" value="0.75" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/layout/toolbar.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/menu/activity_manu_left_drawer.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/menu/activity_menu.xml" value="0.25729166666666664" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/menu/main_home.xml" value="0.25833333333333336" />
         <entry key="..\:/AndroidStudio-projects/test2/app/src/main/res/menu/toolbar_menu.xml" value="0.33" />
       </map>
     </option>

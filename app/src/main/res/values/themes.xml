@@ -15,10 +15,18 @@
         <item name="android:statusBarColor">@color/green_3</item>
         <!-- Customize your theme here. -->
     </style>
+
     <style name="Theme.RecyclerVeiw.ActionBar">
         <item name="windowActionBar">true</item>
         <item name="windowNoTitle">false</item>
     </style>
+
     <style name="Theme.RecyclerVeiw.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <style name="Theme.RecyclerVeiw.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.RecyclerVeiw.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

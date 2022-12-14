@@ -14,8 +14,19 @@
         android:theme="@style/Theme.RecyclerVeiw"
         tools:targetApi="31">
         <activity
+            android:name=".MainHomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main_home"
+            android:theme="@style/Theme.RecyclerVeiw.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
@@ -23,15 +34,8 @@
             android:name=".SigninActivity"
             android:exported="false" />
         <activity
-            android:theme="@style/Theme.RecyclerVeiw.ActionBar"
             android:name=".RibbonActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"/>
     </application>
 
 </manifest>
