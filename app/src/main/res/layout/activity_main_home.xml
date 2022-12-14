@@ -23,6 +23,7 @@
         android:fitsSystemWindows="true"
         android:theme="@style/AppTheme"
         app:headerLayout="@layout/nav_header_main_home"
+        app:itemIconSize="28dp"
         app:itemIconTint="@color/white"
         app:itemShapeFillColor="@color/green_3"
         app:itemTextColor="@color/white"
