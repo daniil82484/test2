@@ -33,7 +33,7 @@ class SigninActivity : AppCompatActivity() {
             if (emailValid(email.text.toString()))
             {
                 Toast.makeText(this, "Вход", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this@SigninActivity,RibbonActivity::class.java)
+                val intent = Intent(this@SigninActivity,MainHomeActivity::class.java)
                 startActivity(intent)
                 finish()
             }
