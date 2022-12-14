@@ -12,14 +12,27 @@
         android:theme="@style/Theme.RecyclerVeiw.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
+
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.RecyclerVeiw.PopupOverlay" />
+            android:background="?attr/colorPrimaryVariant"
+            app:popupTheme="@style/Theme.RecyclerVeiw.PopupOverlay"
+            />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_main_home" />
+    <include
+        android:id="@+id/include2"
+        layout="@layout/content_main_home" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="?attr/colorPrimaryVariant"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="bottom|center"
+        app:menu="@menu/activity_manu_bottom_drawer"
+        android:theme="@style/AppTheme"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
