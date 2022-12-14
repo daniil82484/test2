@@ -30,9 +30,11 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="?attr/colorPrimaryVariant"
+        android:theme="@style/AppTheme"
+
+        app:itemIconSize="32dp"
         app:layout_anchor="@+id/include2"
         app:layout_anchorGravity="bottom|center"
-        app:menu="@menu/activity_manu_bottom_drawer"
-        android:theme="@style/AppTheme"/>
+        app:menu="@menu/activity_manu_bottom_drawer" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
