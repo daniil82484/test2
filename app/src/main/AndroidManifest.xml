@@ -14,8 +14,7 @@
         android:theme="@style/Theme.RecyclerVeiw"
         tools:targetApi="31">
         <activity
-            android:theme="@style/Theme.RecyclerVeiw.ActionBar"
-            android:name=".RibbonActivity"
+            android:name=".MainActivity"
             android:exported="false"/>
         <activity
             android:name=".MainActivity2"
@@ -24,7 +23,8 @@
             android:name=".SigninActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:theme="@style/Theme.RecyclerVeiw.ActionBar"
+            android:name=".RibbonActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
