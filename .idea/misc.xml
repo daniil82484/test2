@@ -55,6 +55,7 @@
         <entry key="app/src/main/res/drawable/ic_menu_note.xml" value="0.2965" />
         <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2965" />
         <entry key="app/src/main/res/drawable/poster.xml" value="0.2965" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.5203125" />
         <entry key="app/src/main/res/layout/activity_main_home.xml" value="0.36770833333333336" />
         <entry key="app/src/main/res/layout/app_bar_main_home.xml" value="0.20012353304508956" />
         <entry key="app/src/main/res/layout/content_main_home.xml" value="0.14308943089430895" />
@@ -62,6 +63,8 @@
         <entry key="app/src/main/res/layout/poster_item.xml" value="0.5203125" />
         <entry key="app/src/main/res/layout/sensation_item.xml" value="0.3963963963963964" />
         <entry key="app/src/main/res/menu/activity_manu_bottom_drawer.xml" value="0.36770833333333336" />
+        <entry key="app/src/main/res/menu/activity_manu_left_drawer.xml" value="0.36770833333333336" />
+        <entry key="app/src/main/res/menu/main_home.xml" value="0.36770833333333336" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2955" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2955" />
       </map>

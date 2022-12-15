@@ -15,7 +15,7 @@ class SigninActivity : AppCompatActivity() {
     lateinit var email: EditText
     lateinit var pass: EditText
 
-    val pattern = ("[a-z]{1,100}"+"@"+"[a-z]{1,6}"+"\\."+"[a-z]{1,5}")
+    val pattern = ("[a-z0-9]{1,100}"+"@"+"[a-z]{1,12}"+"\\."+"[a-z]{1,3}")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,7 +46,7 @@ class SigninActivity : AppCompatActivity() {
         else
         {
             val alert = AlertDialog.Builder(this)
-                .setTitle("Заполните текстовое поля")
+                .setTitle("Заполните поля")
                 .setPositiveButton("OK",  null)
                 .create()
                 .show()
