@@ -27,11 +27,12 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="80dp"
         android:background="?attr/colorPrimaryVariant"
         android:theme="@style/AppTheme"
         app:itemIconSize="32dp"
+        app:itemPaddingTop="20dp"
         app:layout_anchor="@+id/include2"
         app:layout_anchorGravity="bottom|center"
-        app:menu="@menu/activity_manu_bottom_drawer" />
+        app:menu="@menu/activity_manu_bottom_drawer"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
