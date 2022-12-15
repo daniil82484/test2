@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainHomeActivity">
+    tools:context=".ui.home.MainHomeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -31,7 +31,6 @@
         android:layout_height="60dp"
         android:background="?attr/colorPrimaryVariant"
         android:theme="@style/AppTheme"
-
         app:itemIconSize="32dp"
         app:layout_anchor="@+id/include2"
         app:layout_anchorGravity="bottom|center"

@@ -1,4 +1,4 @@
-package com.example.test2
+package com.example.test2.ui.home
 
 import android.os.Bundle
 import android.view.Menu
@@ -11,6 +11,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.example.test2.*
 import com.example.test2.databinding.ActivityMainHomeBinding
 import com.google.android.material.navigation.NavigationView
 
@@ -31,8 +32,7 @@ class MainHomeActivity : AppCompatActivity() {
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_main_home)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
+
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
@@ -43,14 +43,13 @@ class MainHomeActivity : AppCompatActivity() {
 
 
         val poster_res: RecyclerView =findViewById((R.id.rec_view))
-        poster_res.adapter=Poster_adapter(this, PosterList().list)
+        poster_res.adapter= Poster_adapter(this, PosterList().list)
 
         val poster_res2: RecyclerView =findViewById((R.id.rec_view2))
-        poster_res2.adapter=Sensation_adapter(this, SensationList().list)
+        poster_res2.adapter= Sensation_adapter(this, SensationList().list)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main_home, menu)
         return true
     }
@@ -64,10 +63,10 @@ class MainHomeActivity : AppCompatActivity() {
         when(item.itemId){
             R.id.action_avatar -> {
                 val poster_res: RecyclerView =findViewById((R.id.rec_view))
-                poster_res.adapter=Poster_adapter(this, PosterList().list)
+                poster_res.adapter= Poster_adapter(this, PosterList().list)
 
                 val poster_res2: RecyclerView =findViewById((R.id.rec_view2))
-                poster_res2.adapter=Sensation_adapter(this, SensationList().list)
+                poster_res2.adapter= Sensation_adapter(this, SensationList().list)
             }
         }
         return false
