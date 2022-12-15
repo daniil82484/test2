@@ -25,9 +25,7 @@ class MainHomeActivity : AppCompatActivity() {
 
         binding = ActivityMainHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         setSupportActionBar(binding.appBarMainHome.toolbar)
-
 
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
@@ -35,12 +33,13 @@ class MainHomeActivity : AppCompatActivity() {
 
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_home,
+                R.id.nav_gallery,
+                R.id.nav_slideshow
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-
 
         val poster_res: RecyclerView =findViewById((R.id.rec_view))
         poster_res.adapter= Poster_adapter(this, PosterList().list)
@@ -49,15 +48,18 @@ class MainHomeActivity : AppCompatActivity() {
         poster_res2.adapter= Sensation_adapter(this, SensationList().list)
     }
 
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_home, menu)
         return true
     }
 
+
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main_home)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){

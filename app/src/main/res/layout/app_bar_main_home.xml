@@ -17,8 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimaryVariant"
-            app:popupTheme="@style/Theme.RecyclerVeiw.PopupOverlay"
-            />
+            app:popupTheme="@style/Theme.RecyclerVeiw.PopupOverlay"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
