@@ -55,8 +55,9 @@
         <entry key="app/src/main/res/drawable/ic_menu_note.xml" value="0.2965" />
         <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2965" />
         <entry key="app/src/main/res/drawable/poster.xml" value="0.2965" />
-        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.5203125" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.45" />
         <entry key="app/src/main/res/layout/activity_main_home.xml" value="0.36770833333333336" />
+        <entry key="app/src/main/res/layout/activity_signin.xml" value="0.335" />
         <entry key="app/src/main/res/layout/app_bar_main_home.xml" value="0.20012353304508956" />
         <entry key="app/src/main/res/layout/content_main_home.xml" value="0.14308943089430895" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.5203125" />

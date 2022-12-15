@@ -105,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_bold"
                 android:text="Зарегистрируйтесь"
-                android:textColor="@color/green_1"
+                android:textColor="@color/green_2"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
