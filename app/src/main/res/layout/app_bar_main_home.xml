@@ -11,11 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="?attr/colorPrimaryVariant"
-        android:paddingTop="15dp"
         android:theme="@style/Theme.RecyclerVeiw.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:popupTheme="@style/Theme.RecyclerVeiw.PopupOverlay" />
