@@ -61,17 +61,16 @@ class MainHomeActivity : AppCompatActivity() {
     }
 
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId){
-            R.id.action_avatar -> {
-                val poster_res: RecyclerView =findViewById((R.id.rec_view))
-                poster_res.adapter= Poster_adapter(this, PosterList().list)
-
-                val poster_res2: RecyclerView =findViewById((R.id.rec_view2))
-                poster_res2.adapter= Sensation_adapter(this, SensationList().list)
-            }
-        }
-        return false
-    }
+    // override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    //     when(item.itemId){
+    //         R.id.action_avatar -> {
+    //             val poster_res: RecyclerView =findViewById((R.id.rec_view))
+    //             poster_res.adapter= Poster_adapter(this, PosterList().list)
+    //             val poster_res2: RecyclerView =findViewById((R.id.rec_view2))
+    //             poster_res2.adapter= Sensation_adapter(this, SensationList().list)
+    //         }
+    //     }
+    //     return false
+    // }
 
 }
